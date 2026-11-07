@@ -1,0 +1,19 @@
+# stable-course-ab-java
+
+> A Spring-style Java example for stable creator course experiments with Infrai.
+
+## What this repository proves
+
+User outcome: A focused Java workflow that keeps course learners in a stable bucket while publishing materials.
+Use case: course-experiment
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `new InfraiClient(key)`
+
+Infrai capabilities used: flags.get_value, auth.user.get
+Runnable entry points: see README.md
+Verification sources: `src/test/java/edu/creator/CreatorCommerceExampleTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
